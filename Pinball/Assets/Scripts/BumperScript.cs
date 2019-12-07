@@ -17,6 +17,7 @@ public class BumperScript : MonoBehaviour
     private MeshRenderer bumperRenderer;
     public ParticleSystem bumperParticles;
     private PointLight ownLight;
+    private TraumaInducer screenShaker;
 
     private Material[] baseMaterials;
     public Material[] activatedMaterials;
@@ -29,11 +30,13 @@ public class BumperScript : MonoBehaviour
         this.ownLight = this.GetComponentInChildren<PointLight>();
         this.bumperParticles = this.GetComponentInChildren<ParticleSystem>();
         this.bumperParticles.Stop();
+        this.screenShaker = this.GetComponent<TraumaInducer>();
     }
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Ball")) {
             this.bumperParticles.Play();
+            this.screenShaker.StartCoroutine("ScreenShake");
             this.timer = 0;
             
             if (!this.isActivated)

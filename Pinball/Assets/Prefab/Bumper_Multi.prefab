@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 352054749692191451}
   - component: {fileID: 5597191077734168843}
   - component: {fileID: 2634349019205838505}
+  - component: {fileID: 7804263191108029782}
   - component: {fileID: 5987246475790211999}
   m_Layer: 0
   m_Name: Bumper_Multi
@@ -119,6 +120,21 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 89fd4596fdb805049991d8f24617e718, type: 2}
   - {fileID: 2100000, guid: 40fddd8a55bd0514399eeb7f22634965, type: 2}
   explosionStrength: 30
+--- !u!114 &7804263191108029782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080216494279906823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47b6b88d425f7234aae309cb9a973743, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Delay: 0
+  MaximumStress: 0.2
+  Range: 45
 --- !u!114 &5987246475790211999
 MonoBehaviour:
   m_ObjectHideFlags: 0

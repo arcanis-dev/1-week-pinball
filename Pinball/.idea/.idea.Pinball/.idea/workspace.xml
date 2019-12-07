@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6f7a8d4-4362-4597-a4c6-1f5a9a3679c3" name="Default Changelist" comment="" />
+    <list default="true" id="e6f7a8d4-4362-4597-a4c6-1f5a9a3679c3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pinball/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pinball/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pinball/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pinball/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Bumper_Multi.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Bumper_Multi.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Pinball.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Pinball.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BumperScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BumperScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpinnerScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SpinnerScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.lightweight@6.9.2/Runtime/Materials/ParticlesLit.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.lightweight@6.9.2/Runtime/Materials/ParticlesLit.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/a6cd8d-73bbeb228ac5c3849b.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/a6cd8d-73bbeb228ac5c3849b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/a6cd8d-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/a6cd8d-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/0cd50d-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/0cd50d-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/51/513392bf895c14e499f73992a6779034.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/51/513392bf895c14e499f73992a6779034.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/73/73bbeb228ac5c3849bcd7262a0db17f7" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/73/73bbeb228ac5c3849bcd7262a0db17f7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/73/73bbeb228ac5c3849bcd7262a0db17f7.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/73/73bbeb228ac5c3849bcd7262a0db17f7.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/81/81253d4e1188485458cdd45fdb2c9b92" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/81/81253d4e1188485458cdd45fdb2c9b92" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/84/841749552c85eb1468e11aaf415d29fe.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/84/841749552c85eb1468e11aaf415d29fe.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/9f/9f389ca1e56360540b3a6fdb02688b1c" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/9f/9f389ca1e56360540b3a6fdb02688b1c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.csprojAssemblyReference.cache" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +42,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BallScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/RuntimeManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BumperScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CameraShakeFX/Scripts/TraumaInducer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4CD14385-55E6-4C0E-AEDA-2393D3C9CF4A/49/2a50d501/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpinnerScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlungerScript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -23,7 +52,10 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/PlungerScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BallScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/CameraShake.cs" />
+        <option value="$PROJECT_DIR$/Assets/CameraShakeFX/Scripts/TraumaInducer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BumperScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SpinnerScript.cs" />
       </list>
     </option>
   </component>
@@ -75,6 +107,7 @@
       <updated>1575638246499</updated>
       <workItem from="1575638252403" duration="1969000" />
       <workItem from="1575705794613" duration="12411000" />
+      <workItem from="1575754124172" duration="1510000" />
     </task>
     <servers />
   </component>
@@ -88,7 +121,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
