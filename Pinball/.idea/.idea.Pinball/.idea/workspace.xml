@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6f7a8d4-4362-4597-a4c6-1f5a9a3679c3" name="Default Changelist" comment="" />
+    <list default="true" id="e6f7a8d4-4362-4597-a4c6-1f5a9a3679c3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pinball/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pinball/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pinball/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pinball/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575638246499</updated>
       <workItem from="1575638252403" duration="1969000" />
-      <workItem from="1575705794613" duration="12411000" />
+      <workItem from="1575705794613" duration="13476000" />
     </task>
     <servers />
   </component>
