@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class BallScript : MonoBehaviour
@@ -16,6 +17,9 @@ public class BallScript : MonoBehaviour
     private void Update()
     {
         scoreText.text = "Score : " + BumperScript.bumperActivated;
+        if (Input.GetKeyDown(KeyCode.R)) {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
     private void OnCollisionEnter(Collision collision)
     {

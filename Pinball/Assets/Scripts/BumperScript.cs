@@ -9,36 +9,32 @@ public class BumperScript : MonoBehaviour
     
     public static int bumperActivated = 0;
     
-    private bool triggered;
     private bool isActivated = false;
-    private bool disabled = true;
     private bool coroutine = false;
     private float timer = 0;
     
     public Text scoreText;
-    
     private MeshRenderer bumperRenderer;
     public ParticleSystem bumperParticles;
     private PointLight ownLight;
 
-    private Material baseMaterial;
-    public Material activatedMaterial;
+    private Material[] baseMaterials;
+    public Material[] activatedMaterials;
 
     public float explosionStrength = 100f;
-    private void Start()
+    private void Awake()
     {
         this.bumperRenderer = this.GetComponent<MeshRenderer>();
-        this.baseMaterial = this.bumperRenderer.materials[0];
-        this.ownLight = gameObject.GetComponentInChildren<PointLight>();
+        this.baseMaterials = this.bumperRenderer.materials;
+        this.ownLight = this.GetComponentInChildren<PointLight>();
+        this.bumperParticles = this.GetComponentInChildren<ParticleSystem>();
+        this.bumperParticles.Stop();
     }
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Ball")) {
-            ParticleSystem particles = Instantiate(this.bumperParticles, this.transform.position, Quaternion.identity);
-            Destroy(particles, 3f);
-            this.disabled = false;
+            this.bumperParticles.Play();
             this.timer = 0;
-            this.triggered = true;
             
             if (!this.isActivated)
             {
@@ -47,6 +43,7 @@ public class BumperScript : MonoBehaviour
             }
             
             if (!this.coroutine) {
+                Debug.Log("change materials " + this.isActivated);
                 this.ChangeMaterials();
             }
             
@@ -56,13 +53,12 @@ public class BumperScript : MonoBehaviour
 
     private void Update()
     {
-        if (this.triggered == true) this.timer = this.timer + Time.deltaTime;
-        if (this.timer >= 3 && !this.disabled && !this.coroutine && bumperActivated < 4)
+        if (this.isActivated == true) this.timer = this.timer + Time.deltaTime;
+        if (this.timer >= 3 && this.isActivated && !this.coroutine && bumperActivated < 4)
         {
             bumperActivated--;
             this.isActivated = false;
-            this.disabled = true;
-            this.gameObject.GetComponent<MeshRenderer>().material.DisableKeyword("_EMISSION");
+            this.ChangeMaterials();
         }
         if (bumperActivated == 4 && !this.coroutine) this.StartCoroutine(this.AllTriggered());
     }
@@ -71,6 +67,7 @@ public class BumperScript : MonoBehaviour
     {
         this.coroutine = true;
         ChangeMaterials();
+        Debug.Log("change");
         yield return new WaitForSeconds(1);
         ChangeMaterials();
         yield return new WaitForSeconds(1);
@@ -81,25 +78,25 @@ public class BumperScript : MonoBehaviour
         ChangeMaterials();
         yield return new WaitForSeconds(1);
         ChangeMaterials();
-        this.disabled = true;
         bumperActivated = 0;
         this.isActivated = false;
         this.coroutine = false;
         this.timer = 0;
-        yield return new WaitForSeconds(0);
+        yield return null;
     }
 
     public void ChangeMaterials() {
+        
         if (this.isActivated == true) {
-            this.bumperRenderer.materials[0] = this.activatedMaterial;
-            this.bumperRenderer.materials[2] = this.activatedMaterial;
+            this.bumperRenderer.materials = this.activatedMaterials;
             this.ownLight.enabled = true;
         }
         else {
-            this.bumperRenderer.materials[0] = this.baseMaterial;
-            this.bumperRenderer.materials[2] = this.baseMaterial;
+            this.bumperRenderer.materials = this.baseMaterials;
             this.ownLight.enabled = false;
         }
+        
+        
         
     }
 }
