@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelUserStore">
     <attachedFolders />
@@ -7,6 +7,10 @@
       <Path>Library/PackageCache/com.unity.ext.nunit@1.0.0</Path>
       <Path>Library/PackageCache/com.unity.ide.rider@1.1.0</Path>
       <Path>Library/PackageCache/com.unity.ide.vscode@1.1.2</Path>
+      <Path>Library/PackageCache/com.unity.postprocessing@2.1.6</Path>
+      <Path>Library/PackageCache/com.unity.render-pipelines.core@6.9.2</Path>
+      <Path>Library/PackageCache/com.unity.render-pipelines.lightweight@6.9.2</Path>
+      <Path>Library/PackageCache/com.unity.shadergraph@6.9.2</Path>
       <Path>Library/PackageCache/com.unity.test-framework@1.0.13</Path>
       <Path>Library/PackageCache/com.unity.textmeshpro@2.0.1</Path>
       <Path>Packages</Path>
@@ -18,6 +22,7 @@
       <Path>Library</Path>
       <Path>Logs</Path>
       <Path>Pinball_fmod</Path>
+      <Path>Temp</Path>
       <Path>obj</Path>
     </explicitExcludes>
   </component>

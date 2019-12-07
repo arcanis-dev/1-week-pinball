@@ -1,13 +1,108 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Arcanus\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Arcanus\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Pinball.1830167214.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Arcanus\Desktop\Pinball" t="IncludeRecursive">
+    <e p="C:\Users\Arcanis\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Arcanis\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Pinball.996308330.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Arcanis\Documents\GitHub\1-week-pinball\Pinball" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="FlatLighting" t="Include">
+          <e p="Demos" t="Include">
+            <e p="Animation" t="Include">
+              <e p="SpinAnimation.cs" t="Include" />
+            </e>
+            <e p="Common" t="Include">
+              <e p="CameraControl.cs" t="Include" />
+            </e>
+            <e p="materialTestScene" t="Include">
+              <e p="MouseOrbit.cs" t="Include" />
+            </e>
+            <e p="MonuScene" t="Include">
+              <e p="MaterialSwapper.cs" t="Include" />
+            </e>
+            <e p="Tower" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="LightingManager.cs" t="Include" />
+                <e p="SceneLigtingSetup.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="Behaviours" t="Include">
+              <e p="MaterialBlender.cs" t="Include" />
+            </e>
+            <e p="Constants.cs" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="CreatePlane.cs" t="Include" />
+              <e p="FlatLightingAboutWindow.cs" t="Include" />
+              <e p="FlatLightingMenu.cs" t="Include" />
+              <e p="RangeWithStepAttributeDrawer.cs" t="Include" />
+              <e p="ShaderPacker.cs" t="Include" />
+              <e p="VectorAsSlidersAttributeDrawer.cs" t="Include" />
+            </e>
+            <e p="LightSources" t="Include">
+              <e p="DirectionalLight.cs" t="Include" />
+              <e p="LightSource.cs" t="Include" />
+              <e p="PointLight.cs" t="Include" />
+              <e p="SpotLight.cs" t="Include" />
+              <e p="VectorAsSlidersAttribute.cs" t="Include" />
+            </e>
+            <e p="Shadows" t="Include">
+              <e p="RangeWithStepAttribute.cs" t="Include" />
+              <e p="ShadowProjector.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="Animated" t="Include">
+              <e p="FlatLightingWater.shader" t="Include" />
+            </e>
+            <e p="Baked" t="Include">
+              <e p="CubeGradient.shader" t="Include" />
+              <e p="FLCelSurfaceBasic.shader" t="Include" />
+              <e p="FLSurfaceTransparentBasic.shader" t="Include" />
+              <e p="FLSurfaceWater.shader" t="Include" />
+              <e p="monuMistSurface.shader" t="Include" />
+              <e p="TestObjectMaterial 1.shader" t="Include" />
+            </e>
+            <e p="cginc" t="Include">
+              <e p="BlendModes.cginc" t="Include" />
+              <e p="FlatLightingAxis.cginc" t="Include" />
+              <e p="FlatLightingCommon.cginc" t="Include" />
+              <e p="FlatLightingCommonSurface.cginc" t="Include" />
+              <e p="FlatLightingGradient.cginc" t="Include" />
+              <e p="FlatLightingLightmapping.cginc" t="Include" />
+              <e p="FlatLightingShadows.cginc" t="Include" />
+              <e p="FlatLightingSources.cginc" t="Include" />
+            </e>
+            <e p="Editor" t="Include">
+              <e p="FlatLightingCelSurfaceEditor.cs" t="Include" />
+              <e p="FlatLightingCelSurfaceEditorTransparent.cs" t="Include" />
+              <e p="FlatLightingShaderEditor.cs" t="Include" />
+              <e p="FlatLightingSurfaceEditor.cs" t="Include" />
+              <e p="FlatLightingTransparentShaderEditor.cs" t="Include" />
+              <e p="FlatLightingWaterShaderEditor.cs" t="Include" />
+              <e p="FlatLightingWaterSurfaceShaderEditor.cs" t="Include" />
+              <e p="Labels.cs" t="Include" />
+              <e p="ShaderBaker.cs" t="Include" />
+              <e p="SkyboxColorGradientShaderEditor.cs" t="Include" />
+              <e p="UITools.cs" t="Include" />
+              <e p="ValueWrapper.cs" t="Include" />
+            </e>
+            <e p="FlatLighting.shader" t="Include" />
+            <e p="FlatLightingTransparent.shader" t="Include" />
+            <e p="ShadowMapping" t="Include">
+              <e p="ShadowDepth.shader" t="Include" />
+            </e>
+            <e p="SkyboxColorGradient.shader" t="Include" />
+          </e>
+          <e p="THANKS.txt" t="Include" />
+        </e>
+        <e p="Materials &amp; Shaders" t="Include">
+          <e p="CustomLighting.hlsl" t="Include" />
+        </e>
         <e p="Plugins" t="Include">
           <e p="FMOD" t="Include">
             <e p="addons" t="Include">
