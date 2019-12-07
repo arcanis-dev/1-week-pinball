@@ -1,38 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6f7a8d4-4362-4597-a4c6-1f5a9a3679c3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pinball/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pinball/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Bumper_Multi.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Bumper_Multi.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Pinball.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Pinball.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BallScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BallScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BumperScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BumperScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/eda8f8-73bbeb228ac5c3849b.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/eda8f8-73bbeb228ac5c3849b.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/eda8f8-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/eda8f8-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/be3e7b-73bbeb228ac5c3849b.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/be3e7b-73bbeb228ac5c3849b.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/be3e7b-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/be3e7b-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/1b/1bacf6e5d10931d468d8b80e8f4e98b1" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/1b/1bacf6e5d10931d468d8b80e8f4e98b1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/73/73bbeb228ac5c3849bcd7262a0db17f7" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/73/73bbeb228ac5c3849bcd7262a0db17f7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/73/73bbeb228ac5c3849bcd7262a0db17f7.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/73/73bbeb228ac5c3849bcd7262a0db17f7.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/81/81253d4e1188485458cdd45fdb2c9b92" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/81/81253d4e1188485458cdd45fdb2c9b92" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/84/84f145a2c806f5a4397121f44f17c60f.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/84/84f145a2c806f5a4397121f44f17c60f.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pinball_fmod/.unsaved/Metadata/Event/{47e1d1ed-09ea-41bd-b06f-9eaab7a1dc05}.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pinball_fmod/.unsaved/metadataFileMapping.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pinball_fmod/Metadata/Event/{47e1d1ed-09ea-41bd-b06f-9eaab7a1dc05}.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Pinball_fmod/Metadata/Event/{47e1d1ed-09ea-41bd-b06f-9eaab7a1dc05}.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
-    </list>
+    <list default="true" id="e6f7a8d4-4362-4597-a4c6-1f5a9a3679c3" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
