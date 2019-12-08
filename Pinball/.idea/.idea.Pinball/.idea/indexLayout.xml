@@ -22,6 +22,7 @@
       <Path>Library</Path>
       <Path>Logs</Path>
       <Path>Pinball_fmod</Path>
+      <Path>Temp</Path>
       <Path>obj</Path>
     </explicitExcludes>
   </component>
